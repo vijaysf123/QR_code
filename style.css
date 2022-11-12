@@ -1,0 +1,45 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+  
+  .card {
+    width: fit-content;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: var(--White);
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,20%);
+  }
+  img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    color: var(--Dark-blue);
+  }
+  
+  p {
+    margin-bottom: 2rem;
+    color: var(--Grayish-blue);
+    font-size: 1.5rem;
+  }
